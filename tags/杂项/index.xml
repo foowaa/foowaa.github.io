@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>杂项 on TIAN Chunlin&#39;s blog</title>
+    <link>/tags/%E6%9D%82%E9%A1%B9/</link>
+    <description>Recent content in 杂项 on TIAN Chunlin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 23 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%E6%9D%82%E9%A1%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于评论和wiki</title>
+      <link>/post/%E5%85%B3%E4%BA%8E%E8%AF%84%E8%AE%BA/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E5%85%B3%E4%BA%8E%E8%AF%84%E8%AE%BA/</guid>
+      <description>&lt;h2 id=&#34;评论和wiki的使用&#34;&gt;评论和wiki的使用：&lt;/h2&gt;
+
+&lt;p&gt;本人比较懒，如果有人想要交流，可以直接在&lt;a href=&#34;https://github.com/foowaa/foowaa.github.io/issues&#34;&gt;issue&lt;/a&gt;进行。此外，我会在&lt;a href=&#34;https://github.com/foowaa/foowaa.github.io/wiki&#34;&gt;wiki&lt;/a&gt;上做一些简单或者杂七杂八的安装东西之类的小记录。本博客主要写一些有自己思考的东西。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
