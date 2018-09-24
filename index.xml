@@ -21,6 +21,25 @@
     </item>
     
     <item>
+      <title>MAC软件推荐</title>
+      <link>/post/mac/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mac/</guid>
+      <description>&lt;p&gt;以下推荐一些我使用的MAC软件，帮助大家绕过坑。主要分为：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;办公&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;工具&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;媒体&amp;amp;社交&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;开发
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>使用blogdown建立静态博客</title>
       <link>/post/blogdown/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>

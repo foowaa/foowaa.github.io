@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>/post/mac/</loc>
+    <lastmod>2018-09-24T21:00:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/post/blogdown/</loc>
     <lastmod>2018-09-23T14:11:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -37,8 +44,15 @@
   </url>
   
   <url>
+    <loc>/tags/mac/</loc>
+    <lastmod>2018-09-24T21:00:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
-    <lastmod>2018-09-23T14:11:55+08:00</lastmod>
+    <lastmod>2018-09-24T21:00:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -59,7 +73,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-09-23T14:11:55+08:00</lastmod>
+    <lastmod>2018-09-24T21:00:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -72,7 +86,14 @@
   </url>
   
   <url>
-    <loc>/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</loc>
+    <loc>/categories/%E6%9D%82%E9%A1%B9/</loc>
+    <lastmod>2018-09-23T22:14:43+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2018-09-23T14:11:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -80,14 +101,28 @@
   
   <url>
     <loc>/tags/%E6%9D%82%E9%A1%B9/</loc>
-    <lastmod>2018-09-23T22:55:16+08:00</lastmod>
+    <lastmod>2018-09-24T21:00:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/%E6%9D%82%E9%A1%B9/</loc>
-    <lastmod>2018-09-23T22:55:16+08:00</lastmod>
+    <lastmod>2018-09-23T22:14:43+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2018-09-24T21:00:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2018-09-24T21:00:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
