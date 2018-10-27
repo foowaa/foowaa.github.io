@@ -1,11 +1,13 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Nickbing Lao</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <style>
-            html, body {
+
+<head>
+    <title>TIAN Chunlin</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <style>
+        html, body {
                 overflow: hidden;
                 margin: 0;
             }
@@ -68,89 +70,106 @@
                 color: #f33;
             }
         </style>
-        <script type="text/javascript">
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38965494-1xxx']);
+        _gaq.push(['_setDomainName', 'giscafer.com']);
+        _gaq.push(['_trackPageview']);
 
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-38965494-1xxx']);
-          _gaq.push(['_setDomainName', 'giscafer.com']);
-          _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
+<body>
+    <div id="wrapper">
+        <h1>TIAN Chunlin</h1>
+        <h2>Freedom!</h2>
+        <p><a href="https://foowaa.github.io/blog" target="_blank">Blog</a></p>
+        <p><a href="https://github.com/foowaa/foowaa.github.io/wiki" target="_blank">wiki</a></p>
+        <p><a href="https://foowaa.github.io/academic" target="_blank">学术导航</a></p>
+        <p><a href="https://github.com/foowaa" target="_blank">Github</a></p>
+        <p><a href="" target="_blank">CV</a></p>
+    </div>
+    <canvas></canvas>
+    <script>
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault()
+        })
+        var c = document.getElementsByTagName('canvas')[0],
+            x = c.getContext('2d'),
+            pr = window.devicePixelRatio || 1,
+            w = window.innerWidth,
+            h = window.innerHeight,
+            f = 90,
+            q,
+            m = Math,
+            r = 0,
+            u = m.PI * 2,
+            v = m.tan,
+            z = m.random
+        c.width = w * pr
+        c.height = h * pr
+        x.scale(pr, pr)
+        x.globalAlpha = 0.3
 
-        </script>
-    </head>
-    <body>
-        <div id="wrapper">
-            <h1>TIAN Chunlin</h1>
-            <h2>Freedom!</h2>
-            <p><a href="https://foowaa.github.io/blog" target="_blank">Blog</a></p>
-            <p><a href="https://github.com/foowaa/foowaa.github.io/wiki" target="_blank">wiki</a></p>
-            <p><a href="https://foowaa.github.io/academic" target="_blank">学术导航</a></p>
-            <p><a href="https://github.com/foowaa" target="_blank">Github</a></p>
-            <p><a href="" target="_blank">CV</a></p>
-        </div>
-        <canvas></canvas>
-        <script>
-            document.addEventListener('touchmove', function (e) {
-                e.preventDefault()
-            })
-            var c = document.getElementsByTagName('canvas')[0],
-                x = c.getContext('2d'),
-                pr = window.devicePixelRatio || 1,
-                w = window.innerWidth,
-                h = window.innerHeight,
-                f = 90,
-                q,
-                m = Math,
-                r = 0,
-                u = m.PI*2,
-                v = m.tan,
-                z = m.random
-            c.width = w*pr
-            c.height = h*pr
-            x.scale(pr, pr)
-            x.globalAlpha = 0.3
-            function i(){
-                x.clearRect(0,0,w,h)
-                q=[{x:0,y:h*.7+f},{x:0,y:h*.7-f}]
-                while(q[1].x<w+f) d(q[0], q[1])
+        function i() {
+            x.clearRect(0, 0, w, h)
+            q = [{
+                x: 0,
+                y: h * .7 + f
+            }, {
+                x: 0,
+                y: h * .7 - f
+            }]
+            while (q[1].x < w + f) d(q[0], q[1])
+        }
+
+        function d(i, j) {
+            x.beginPath()
+            x.moveTo(i.x, i.y)
+            x.lineTo(j.x, j.y)
+            var k = j.x + (z() * 2 - 0.25) * f,
+                n = y(j.y)
+            x.lineTo(k, n)
+            x.closePath()
+            r -= u / -50
+            x.fillStyle = '#' + (v(r) * 127 + 128 << 16 | v(r + u / 3) * 127 + 128 << 8 | v(r + u / 3 * 2) * 127 + 128)
+                .toString(16)
+            x.fill()
+            q[0] = q[1]
+            q[1] = {
+                x: k,
+                y: n
             }
-            function d(i,j){   
-                x.beginPath()
-                x.moveTo(i.x, i.y)
-                x.lineTo(j.x, j.y)
-                var k = j.x + (z()*2-0.25)*f,
-                    n = y(j.y)
-                x.lineTo(k, n)
-                x.closePath()
-                r-=u/-50
-                x.fillStyle = '#'+(v(r)*127+128<<16 | v(r+u/3)*127+128<<8 | v(r+u/3*2)*127+128).toString(16)
-                x.fill()
-                q[0] = q[1]
-                q[1] = {x:k,y:n}
-            }
-            function y(p){
-                var t = p + (z()*2-1.1)*f
-                return (t>h||t<0) ? y(p) : t
-            }
-            document.onclick = i
-            document.ontouchstart = i
-            i()
-        </script>
-    </body>
-    <footer style="
+        }
+
+        function y(p) {
+            var t = p + (z() * 2 - 1.1) * f
+            return (t > h || t < 0) ? y(p) : t
+        }
+        document.onclick = i
+        document.ontouchstart = i
+        i()
+    </script>
+</body>
+<footer style="
     position: absolute;
     bottom: 0;
     text-align: right;
     width: 100%;
     margin-right:5px;
     ">
-        <div>
-            <p style="font-size:12px;">Theme by Evan You</p>
-        </div>
-    </footer>
+    <div>
+        <p style="font-size:12px;">Theme by Evan You</p>
+    </div>
+</footer>
+
 </html>
