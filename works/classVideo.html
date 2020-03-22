@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="//player.polyv.net/script/polyvplayer.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <p>视频1：</p>
+    <div id="plv_50ac05851af04472b207d3b17672f9ee_5"></div>
+    <p>视频2：</p>
+    <div id="plv_50ac05851a3810449275c24bc3e83f3e_5"></div>
+  </body>
+  <script>
+    var player = polyvObject(
+      "#plv_50ac05851af04472b207d3b17672f9ee_5"
+    ).videoPlayer({
+      width: "600",
+      height: "338",
+      vid: "50ac05851af04472b207d3b17672f9ee_5",
+      forceH5: true
+    });
+
+    var player = polyvObject(
+      "#plv_50ac05851a3810449275c24bc3e83f3e_5"
+    ).videoPlayer({
+      width: "600",
+      height: "338",
+      vid: "50ac05851a3810449275c24bc3e83f3e_5",
+      forceH5: true
+    });
+  </script>
+</html>
